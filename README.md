@@ -1,18 +1,41 @@
-## Implementing caching in Node.js using redis.
+## Implementing caching in Node.js using Redis.
 
 - Clone the repository.
+
 - Ensure that you got [node.js](https://nodejs.org/en/) installed on your computer.
-- Ensure that you got [redis](https://redis.io/topics/quickstart) installed on your computer.
-- If redis is successfully installed, start the redis server with the following command:
+
+- Ensure that you got [Postman](https://www.postman.com/) installed on your computer.
+
+- Ensure that you got [redis](https://redis.io/) installed on your computer.
+
+- Proceed to the final folder:
+
 ```bash
-redis-server
+cd ./final
 ```
-- Install the dependencies with:
+
+- Install the dependencies:
+
 ```bash
 npm install
 ```
-- Start the application
+
+- Open a different tab in your terminal, shift to your home directory by:
+
+```bash
+cd
+```
+
+- Start the redis server
+
+```bash
+redis-server
+```
+
+- Start the development server
+
 ```bash
 npm run dev
 ```
-- Test the application using [Postman](https://www.postman.com/).
+
+- Experiment the API from Postman.
