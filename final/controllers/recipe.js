@@ -10,7 +10,7 @@ client.on('error', (error) => {
     console.error(error);
 });
 
-const fetchFoodItem = (req,res,next) => {
+const fetchFoodItem = async (req,res,next) => {
 
     try {
 

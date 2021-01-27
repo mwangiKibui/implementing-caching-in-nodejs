@@ -1,4 +1,4 @@
-const fetchFoodItem = (req,res,next) => {
+const fetchFoodItem = async (req,res,next) => {
 
     //Implementation shall go here.
     
